@@ -1,0 +1,57 @@
+.notes{
+    /* background-color: blueviolet; */
+    padding: 25px;
+    border-radius: 30px;
+    /* width: 18%; */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    /* margin-left: 10px; */
+}
+
+.notes_text{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    line-height: 20px;
+    font-size: medium;
+}
+
+.notes_footer{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.notes_footer img{
+    cursor: pointer;
+    background: transparent;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.notes:hover .notes_footer img {
+
+    opacity: 1;
+
+}
+
+p{
+    background: transparent;
+}
+
+.notes_text{
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.notes_text::-webkit-scrollbar{
+
+    display: none;
+    
+}
